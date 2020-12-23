@@ -22,6 +22,6 @@ function bzStatistic( objPost, callback ){
 
 }
 
-// bzPost( {}, function(data){  })//console.log('callback', data)
+// bzStatistic( {}, function(data){  })//console.log('callback', data)
 
 export default bzStatistic

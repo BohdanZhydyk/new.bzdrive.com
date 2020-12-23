@@ -5,7 +5,10 @@ import { AreaL } from './components/AreaL'
 import { AreaR } from './components/AreaR'
 import { AreaBottom } from './components/AreaBottom'
 import data from './data'
+import bzStatistic from './statistic'
 
+
+bzStatistic( {}, function(){})
 
 const useStyles = createUseStyles({
   cv:{
