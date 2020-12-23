@@ -9,12 +9,18 @@ import data from './data'
 
 const useStyles = createUseStyles({
   cv:{
-    width:'100%',
+    maxWidth:'1400px',
+    margin:'0 auto',
     display:'flex',
     justifyContent:'center',
     alignItems:'flex-start',
     flexWrap:'wrap',
-  }
+  },
+  "@media only screen and (max-width: 767px)":{
+    width:'100%',
+  },
+  "@media only screen and (max-width: 767px) and (orientation: portrait)":{},
+  "@media print":{}
 })
 
 export const CV = ()=>{

@@ -161,7 +161,7 @@
         },
         {
           "key": "p",
-          "value": "Jest to aplikacja webowa, w której otwierają się inne aplikację webowe, po kliknięciu odpowiedniego przycisku w menu głównym. Obecnie strona służy głównie do zamieszczania aktualności i informacji o moich projektach."
+          "value": "Nowa wersja glownego projektu bzDrive.com napisana na React.js"
         },
         {
           "key": "img",
@@ -208,20 +208,6 @@
         {
           "key": "img",
           "value": ["HTML", "CSS", "MySQL", "PHP", "JavaScript", "jQuery"]
-        },
-        {
-          "key": "a",
-          "name": "cv.bzDrive.com",
-          "site": "https://cv.bzdrive.com",
-          "github": "https://github.com/BohdanZhydyk/cv.bzdrive.com"
-        },
-        {
-          "key": "p",
-          "value": "Wersja online mojego CV zawiera najbardziej aktualną informacje..."
-        },
-        {
-          "key": "img",
-          "value": ["React.js", "Node.js", "JSS"]
         }
       ]
     },
@@ -231,7 +217,7 @@
         {
           "key": "a",
           "name": "A Bit Of Help",
-          "site": "https://abitofhelp.com",
+          "site": "https://?????????",
           "github": "https://github.com/????????"
         },
         {
