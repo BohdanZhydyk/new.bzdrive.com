@@ -1,0 +1,273 @@
+{
+  "photo": {
+    "author": "Bohdan Zhydyk",
+    "text": "Web Developer",
+    "img": "https://oldapi.bzdrive.com/img/CV/bz83.png"
+  },
+  "containers": [
+    {
+      "name": "DANE OSOBISTE",
+      "lines": [
+        {
+          "key": "tel",
+          "value": "+48 667 927 157",
+          "link": "tel:+48667927157"
+        },
+        {
+          "key": "e-mail",
+          "value": "bzua83@gmail.com",
+          "link": "mailto: bzua83@gmail.com"
+        },
+        {
+          "key": "location",
+          "value": "84-200 Wejherowo, Pomorskie, Polska"
+        },
+        {
+          "key": "web-site",
+          "value": "bzDrive.com",
+          "link": "http://bzDrive.com"
+        },
+        {
+          "key": "LinkedIn",
+          "value": "in/bohdan-zhydyk",
+          "link": "https://www.linkedin.com/in/bohdan-zhydyk"
+        },
+        {
+          "key": "GitHub",
+          "value": "github.com/BohdanZhydyk",
+          "link": "https://github.com/BohdanZhydyk"
+        }
+      ]
+    },
+    {
+      "name": "WEB-TECHNOLOGIE",
+      "lines": [
+        {
+          "key": "React.js",
+          "value": ""
+        },
+        {
+          "key": "TypeScript",
+          "value": ""
+        },
+        {
+          "key": "Material-UI",
+          "value": ""
+        },
+        {
+          "key": "JSS",
+          "value": ""
+        },
+        {
+          "key": "Node.js",
+          "value": ""
+        },
+        {
+          "key": "Express.js",
+          "value": ""
+        },
+        {
+          "key": "REST API",
+          "value": ""
+        },
+        {
+          "key": "GIT",
+          "value": ""
+        },
+        {
+          "key": "jQuery",
+          "value": ""
+        },
+        {
+          "key": "JavaScript",
+          "value": ""
+        },
+        {
+          "key": "PHP",
+          "value": ""
+        },
+        {
+          "key": "MySQL",
+          "value": ""
+        },
+        {
+          "key": "CSS",
+          "value": ""
+        },
+        {
+          "key": "HTML",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "JĘZYKI OBCE",
+      "lines": [
+        {
+          "key": "english",
+          "value": "B1"
+        },
+        {
+          "key": "polish",
+          "value": "C1"
+        },
+        {
+          "key": "ukrainian",
+          "value": "C2"
+        },
+        {
+          "key": "russian",
+          "value": "C2"
+        }
+      ]
+    }
+  ],
+  "informations": [
+    {
+      "name": "O SOBIE",
+      "tags": [
+        {
+          "key": "p",
+          "value": "Dwa lata temu zainteresowałem się programowaniem webowym. To stało się moim hobby, cały wolny czas poświęcam programowaniu. Wiedzę zdobywam samodzielnie ze źródeł internetowych oraz w praktyce podczas pisania własnych projektów. Nie kopiuję cudzych osiągnięć, staram się zbudować algorytm i osobiście napisać kod."
+        },
+        {
+          "key": "p",
+          "value": "W programowaniu webowym widzę przyszłość i rozwój osobisty. Wiem, że nie mam doświadczenia komercyjnego w tej dziedzinie, ale wierzę, że umiejętność samodzielnego uczenia się połączona z pracą zespołową i chęć zdobywania nowych umiejętności, pozwoli szybko się rozwijać."
+        }
+      ]
+    },
+    {
+      "name": "MOJE PROJEKTY",
+      "tags": [
+        {
+          "key": "a",
+          "name": "bzDrive.com",
+          "site": "https://bzdrive.com",
+          "github": "https://github.com/BohdanZhydyk/bzdrive.com"
+        },
+        {
+          "key": "p",
+          "value": "Jest to aplikacja webowa, w której otwierają się inne aplikację webowe, po kliknięciu odpowiedniego przycisku w menu głównym. Obecnie strona służy głównie do zamieszczania aktualności i informacji o moich projektach."
+        },
+        {
+          "key": "img",
+          "value": ["HTML", "CSS", "MySQL", "PHP", "JavaScript", "jQuery"]
+        },
+        {
+          "key": "a",
+          "name": "new.bzDrive.com",
+          "site": "https://new.bzdrive.com",
+          "github": "https://github.com/BohdanZhydyk/new.bzdrive.com"
+        },
+        {
+          "key": "p",
+          "value": "Jest to aplikacja webowa, w której otwierają się inne aplikację webowe, po kliknięciu odpowiedniego przycisku w menu głównym. Obecnie strona służy głównie do zamieszczania aktualności i informacji o moich projektach."
+        },
+        {
+          "key": "img",
+          "value": ["React.js", "Node.js", "JSS", "MySQL"]
+        },
+        {
+          "key": "a",
+          "name": "bistro.bzDrive.com",
+          "site": "https://bistro.bzdrive.com",
+          "github": "https://github.com/BohdanZhydyk/bistro.bzdrive.com"
+        },
+        {
+          "key": "p",
+          "value": "Pracuję nad własnym projektem dla restauracji. W przyszłości ma się rozwinąć w aplikację webową, która będzie zarówno stroną restauracji, jak i systemem do zarządzania bazą danych, pracownikami, zamówieniami i środkami."
+        },
+        {
+          "key": "img",
+          "value": ["React.js", "Node.js", "JSS", "MySQL"]
+        },
+        {
+          "key": "a",
+          "name": "api.bzDrive.com",
+          "site": "https://api.bzdrive.com",
+          "github": "https://github.com/BohdanZhydyk/api.bzdrive.com"
+        },
+        {
+          "key": "p",
+          "value": "Serwer, który będzie dostarczał informację dla powyższych projektów."
+        },
+        {
+          "key": "img",
+          "value": ["React.js", "Node.js", "JSS", "MySQL", "REST API", "Express.js"]
+        },
+        {
+          "key": "a",
+          "name": "oldapi.bzDrive.com",
+          "site": "https://oldapi.bzdrive.com",
+          "github": "https://github.com/BohdanZhydyk/oldapi.bzdrive.com"
+        },
+        {
+          "key": "p",
+          "value": "Serwer, który dostarcza informację dla powyższych projektów."
+        },
+        {
+          "key": "img",
+          "value": ["HTML", "CSS", "MySQL", "PHP", "JavaScript", "jQuery"]
+        },
+        {
+          "key": "a",
+          "name": "cv.bzDrive.com",
+          "site": "https://cv.bzdrive.com",
+          "github": "https://github.com/BohdanZhydyk/cv.bzdrive.com"
+        },
+        {
+          "key": "p",
+          "value": "Wersja online mojego CV zawiera najbardziej aktualną informacje..."
+        },
+        {
+          "key": "img",
+          "value": ["React.js", "Node.js", "JSS"]
+        }
+      ]
+    },
+    {
+      "name": "INNE PROJEKTY",
+      "tags": [
+        {
+          "key": "a",
+          "name": "A Bit Of Help",
+          "site": "https://abitofhelp.com",
+          "github": "https://github.com/????????"
+        },
+        {
+          "key": "p",
+          "value": "some description...some description...some description...some description...some description...some description...some description...some description...some description...some description...some description...some description...some description...some description..."
+        },
+        {
+          "key": "img",
+          "value": ["HTML", "CSS", "MySQL", "PHP", "JavaScript", "jQuery"]
+        }
+      ]
+    },
+    {
+      "name": "INNE UMIEJĘTNOŚCI I ZAWODY",
+      "tags": [
+        {
+          "key": "p",
+          "value": "- Diagnostyka, naprawa, kodowanie, instalacja elektryki i elektroniki samochodowej."
+        },
+        {
+          "key": "p",
+          "value": "- Montaż i obsługa domowych instalacji klimatyzacyjnych i wentylacyjnych."
+        },
+        {
+          "key": "p",
+          "value": "- Projekt i instalacja elektryczności domowej."
+        },
+        {
+          "key": "p",
+          "value": "- Instalacja i obsługa systemów Windows, Linux."
+        }
+      ]
+    }
+  ],
+  "rodo": {
+      "rodo1": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).",
+      "rodo2": "Wyrażam również zgodę na przetwarzanie moich danych osobowych w celu prowadzenia przyszłych rekrutacji."
+  }
+}

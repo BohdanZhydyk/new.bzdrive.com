@@ -1,0 +1,9 @@
+{
+  "logo": "logo",
+  "siteName": ["bz", "Drive", ".com"],
+  "menu": [
+    {"link": "/", "text": "main"},
+    {"link": "/cv", "text": "cv"},
+    {"link": "/about", "text": "about"}
+  ]
+}
