@@ -1,4 +1,4 @@
-<span style="color:#f60;">MAIN MENU</span>
+<span style="color:#ff6600;">MAIN MENU</span>
 
 [>>> back](./../../../README.md)
 
