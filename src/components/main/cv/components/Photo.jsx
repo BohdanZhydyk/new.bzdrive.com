@@ -28,7 +28,6 @@ const useStyles = createUseStyles({
     display:'flex',
     justifyContent:'center',
     fontSize:'120%',
-    color:'#fd0',
   },
   img:{
     width:'25em',
@@ -56,7 +55,7 @@ export const Photo = ({ data: {author, text, img} })=>{
   return (
     <div className={classes.photo}>
       <div className={classes.author}>{author}</div>
-      <div className={classes.text}>{text}</div>
+      <div className={classes.text+" txtYlw"}>{text}</div>
       <img className={classes.img} src={img} alt="ava" />
     </div>
   )

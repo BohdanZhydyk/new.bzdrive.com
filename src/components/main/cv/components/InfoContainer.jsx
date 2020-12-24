@@ -17,7 +17,6 @@ const useStyles = createUseStyles({
     }
   },
   name:{
-    color:'#f60',
     width:'90%',
     margin:'0.5em 0',
     padding:'0 0.5em',
@@ -35,7 +34,7 @@ export const InfoContainer = ({ data: {name, tags} })=>{
 
   return (
     <div className={classes.data+" flex wrap"}>
-      <div className={classes.name}>{name}</div>
+      <div className={classes.name+" txtOrg"}>{name}</div>
       {
         tags.map( (tag, index)=>{
           switch(tag.key){

@@ -19,10 +19,6 @@
           "link": "mailto: bzua83@gmail.com"
         },
         {
-          "key": "location",
-          "value": "84-200 Wejherowo, Pomorskie, Polska"
-        },
-        {
           "key": "web-site",
           "value": "bzDrive.com",
           "link": "http://bzDrive.com"
@@ -36,6 +32,10 @@
           "key": "GitHub",
           "value": "github.com/BohdanZhydyk",
           "link": "https://github.com/BohdanZhydyk"
+        },
+        {
+          "key": "location",
+          "value": "84-200 Wejherowo, Pomorskie, Polska"
         }
       ]
     },

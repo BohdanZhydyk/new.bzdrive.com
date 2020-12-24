@@ -13,8 +13,9 @@ export const Other = ()=>{
   const [state, setState] = useState("")
 
   return (
-    <>
-      ERROR: 404
-    </>
+    <div className="flex column">
+      <div className="txtRed">ERROR: 404</div>
+      <div>page not found</div>      
+    </div>
   )
 }

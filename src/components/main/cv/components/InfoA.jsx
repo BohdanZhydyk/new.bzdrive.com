@@ -12,12 +12,10 @@ const useStyles = createUseStyles({
   },
   siteLink:{
     width:'40%',
-    color:'#fff',
   },
   githubLink:{
     width:'55%',
     minWidth:'250px',
-    color:'#fff',
     padding:'0.2em',
     textDecoration:'none',
     borderRadius:'0.5em',
@@ -42,11 +40,11 @@ export const InfoA = ({tag})=>{
 
   return (
     <div className={classes.siteItem+" flex wrap"} >
-      <a className={classes.siteLink+" flex start"} href={tag.site} target="_blank" rel="noreferrer">
+      <a className={classes.siteLink+" flex start txtWht"} href={tag.site} target="_blank" rel="noreferrer">
         <img className={classes.img} src={`https://oldapi.bzdrive.com/img/CV/ico/web-site.png`} alt="site"/>
         <span>{tag.site}</span>
       </a>
-      <a className={classes.githubLink+" flex start"} href={tag.github} target="_blank" rel="noreferrer">
+      <a className={classes.githubLink+" flex start txtWht"} href={tag.github} target="_blank" rel="noreferrer">
         <img className={classes.img} src={`https://oldapi.bzdrive.com/img/CV/ico/GitHub.png`} alt="github"/>
         <span>{tag.github}</span>
       </a>

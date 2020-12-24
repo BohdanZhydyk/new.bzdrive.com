@@ -76,10 +76,10 @@ export const Header = ()=>{
         }
       </div>
       <menu className={classes.menu+" flex"}>
-        <NavLink exact to="/" className={classes.menuBtn+" flex"} >Home</NavLink>
-        <NavLink exact to="/cv" className={classes.menuBtn+" flex"} >myCV</NavLink>
-        <NavLink exact to="/contacts" className={classes.menuBtn+" flex"} >Contacts</NavLink>
-        <NavLink exact to="/about" className={classes.menuBtn+" flex"} >About</NavLink>
+        <NavLink exact to="/" className={classes.menuBtn+" flex"} >Główna</NavLink>
+        <NavLink exact to="/cv" className={classes.menuBtn+" flex"} >Moje CV</NavLink>
+        <NavLink exact to="/contacts" className={classes.menuBtn+" flex"} >Kontakty</NavLink>
+        <NavLink exact to="/about" className={classes.menuBtn+" flex"} >O stronie</NavLink>
       </menu>
     </header>
   )

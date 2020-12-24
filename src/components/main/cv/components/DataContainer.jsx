@@ -14,7 +14,6 @@ const useStyles = createUseStyles({
     }
   },
   name:{
-    color:'#f60',
     width:'90%',
     margin:'0.5em 0',
     padding:'0 0.5em',
@@ -37,11 +36,8 @@ const useStyles = createUseStyles({
   },
   key:{
     width:'20%',
-    color:'#fd0',
   },
-  value:{
-    color:'#fff',
-  },
+  value:{},
   "@media print":{
     img:{
       display:'none',
@@ -63,19 +59,19 @@ export const DataContainer = ({ data: {name, lines} })=>{
 
   return (
     <div className={classes.data+" flex wrap"}>
-      <div className={classes.name}>{name}</div>
+      <div className={classes.name+" txtOrg"}>{name}</div>
       {
         lines.map( (line, index)=>{
           return (
             <div className={classes.line} key={line.key + index}>
               <img className={classes.img} src={`https://oldapi.bzdrive.com/img/CV/ico/${line.key}.png`} alt="img"/>
-              <span className={classes.key}>{line.key}</span>
+              <span className={classes.key+" txtYlw"}>{line.key}</span>
               {
                 line.link
                 ?
-                <a className={classes.value} href={line.link} target="_blank" rel="noreferrer">{line.value}</a>
+                <a className={classes.value+" txtWht"} href={line.link} target="_blank" rel="noreferrer">{line.value}</a>
                 :
-                <span className={classes.value}>{line.value}</span>
+                <span className={classes.value+" txtWht"}>{line.value}</span>
               }
             </div>
           )

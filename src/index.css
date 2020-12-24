@@ -34,3 +34,10 @@ body {
 .end {
   justify-content:flex-end;
 }
+
+.txtWht {color:#fff;}
+.txtBlk {color:#000;}
+.txtRed {color:#f00;}
+.txtOrg {color:#f60;}
+.txtYlw {color:#fd0;}
+.txtGrn {color:#191;}

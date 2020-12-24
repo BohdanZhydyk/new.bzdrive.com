@@ -3,6 +3,7 @@ import { createUseStyles } from 'react-jss'
 import { Switch, Route } from 'react-router'
 import { Home } from './home/Home'
 import { CV } from './cv/CV'
+import { About } from './about/About'
 import { Other } from './other/Other'
 
 
@@ -21,6 +22,7 @@ export const Main = ()=>{
       <Switch>
         <Route exact path="/" render={ ()=> <Home /> } />
         <Route exact path="/cv" render={ ()=> <CV /> } />
+        <Route exact path="/about" render={ ()=> <About /> } />
         <Route path="*" render={ ()=> <Other /> } />
       </Switch>
     </main>
