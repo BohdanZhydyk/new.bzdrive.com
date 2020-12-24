@@ -35,6 +35,17 @@ const useStyles = createUseStyles({
     minWidth:'200px',
     margin:'1em 0',
     borderRadius:'0.5em'
+  },
+  "@media print":{
+    text:{
+      color:'#333',
+    },
+    img:{
+      width:'15em',
+      minWidth:'100px',
+      margin:'1em 0',
+      borderRadius:'0.5em'
+    },
   }
 })
 

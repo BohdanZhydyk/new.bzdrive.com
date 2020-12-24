@@ -44,6 +44,19 @@ const useStyles = createUseStyles({
   },
   value:{
     color:'#fff',
+  },
+  "@media print":{
+    img:{
+      display:'none',
+    },
+    key:{
+      padding:'0 0 0 0.5em',
+      color:'#000',
+    },
+    value:{
+      color:'#111',
+      textDecoration:'none',
+    },
   }
 })
 

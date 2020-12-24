@@ -58,6 +58,11 @@ const useStyles = createUseStyles({
     color:'#f60',
     textShadow:'0.1em 0.1em 0.2em #777',
   },
+  "@media print":{
+    header:{
+      display:'none',
+    }
+  }
 })
 
 export const Header = ()=>{

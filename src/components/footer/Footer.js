@@ -11,6 +11,11 @@ const useStyles = createUseStyles({
     padding:'1em 0',
     borderTop:'2px solid #aaa',
     borderBottom:'2px solid #aaa',
+  },
+  "@media print":{
+    footer:{
+      display:'none',
+    }
   }
 })
 

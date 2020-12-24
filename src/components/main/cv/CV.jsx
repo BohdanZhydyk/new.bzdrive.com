@@ -23,7 +23,13 @@ const useStyles = createUseStyles({
     width:'100%',
   },
   "@media only screen and (max-width: 767px) and (orientation: portrait)":{},
-  "@media print":{}
+  "@media print":{
+    cv:{
+      fontSize:'10px',
+      color:'#000',
+      backgroundColor:'#fff'
+    }
+  }
 })
 
 export const CV = ()=>{

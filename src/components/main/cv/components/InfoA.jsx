@@ -32,6 +32,14 @@ const useStyles = createUseStyles({
   img:{
     width:'2em',
     margin:'0 0.5em 0 0',
+  },
+  "@media print":{
+    img:{
+      display:'none',
+    },
+    siteLink:{
+      width:'35%',
+    },
   }
 })
 

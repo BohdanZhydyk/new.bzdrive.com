@@ -27,6 +27,11 @@ const useStyles = createUseStyles({
     padding:'0.5em',
     borderRadius:'50%',
     backgroundColor:'#222'
+  },
+  "@media print":{
+    img:{
+      display:'none',
+    }
   }
 })
 

@@ -14,6 +14,11 @@ const useStyles = createUseStyles({
     '&:hover':{
       boxShadow:'0 0 0.2em 0.1em #999',
     }
+  },
+  "@media print":{
+    footer:{
+      padding:'0.1em 2em',
+    }
   }
 })
 
@@ -25,7 +30,6 @@ export const Rodo = ({data})=>{
     <footer className={classes.footer}>
       <p>{data.rodo1}</p>
       <p>{data.rodo2}</p>
-      
     </footer>
   )
 }
