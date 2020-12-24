@@ -6,37 +6,24 @@ import header from './header.json'
 
 const useStyles = createUseStyles({
   header:{
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    // padding:'1vw 0',
     borderTop:'2px solid #aaa',
     borderBottom:'2px solid #aaa',
   },
   logo:{
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    width:'10%',
+    width:'5%',
+  },
+  imgBtn:{
+    width:'3vw'
   },
   siteName:{
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    width:'30%',
+    width:'20%',
     fontSize:'200%',
     fontWeight:'bold',
   },
   menu:{
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    width:'60%',
+    width:'70%',
   },
   menuBtn:{
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
     margin:'0 0.5em',
     width:'8em',
     minHeight:'2em',
@@ -52,11 +39,9 @@ const useStyles = createUseStyles({
   },
   clrOne:{
     color:'#fff',
-    textShadow:'0.1em 0.1em 0.2em #f60',
   },
   clrTwo:{
     color:'#f60',
-    textShadow:'0.1em 0.1em 0.2em #777',
   },
   "@media print":{
     header:{
@@ -74,11 +59,11 @@ export const Header = ()=>{
   let color = false
 
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>
-        {state.logo}
+    <header className={classes.header+" flex"}>
+      <div className={classes.logo+" flex"}>
+        <img className={classes.imgBtn} src={state.logo}alt="logo" />
       </div>
-      <div className={classes.siteName}>
+      <div className={classes.siteName+" flex"}>
         {
           state.siteName.map( (text, index)=>{
 
@@ -90,11 +75,11 @@ export const Header = ()=>{
           })
         }
       </div>
-      <menu className={classes.menu}>
-        <NavLink exact to="/" className={classes.menuBtn} >home</NavLink>
-        <NavLink exact to="/cv" className={classes.menuBtn} >cv</NavLink>
-        <NavLink exact to="/contacts" className={classes.menuBtn} >contacts</NavLink>
-        <NavLink exact to="/about" className={classes.menuBtn} >about</NavLink>
+      <menu className={classes.menu+" flex"}>
+        <NavLink exact to="/" className={classes.menuBtn+" flex"} >Home</NavLink>
+        <NavLink exact to="/cv" className={classes.menuBtn+" flex"} >myCV</NavLink>
+        <NavLink exact to="/contacts" className={classes.menuBtn+" flex"} >Contacts</NavLink>
+        <NavLink exact to="/about" className={classes.menuBtn+" flex"} >About</NavLink>
       </menu>
     </header>
   )

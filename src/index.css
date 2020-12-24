@@ -13,3 +13,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.flex {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.wrap {
+  flex-wrap:wrap;
+}
+.stretch {
+  justify-content:stretch;
+}
+.column {
+  flex-direction:column;
+}
+.start {
+  justify-content:flex-start;
+}
+.end {
+  justify-content:flex-end;
+}

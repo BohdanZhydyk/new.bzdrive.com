@@ -14,7 +14,7 @@ export const Other = ()=>{
 
   return (
     <>
-      404
+      ERROR: 404
     </>
   )
 }

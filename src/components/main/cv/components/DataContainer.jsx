@@ -6,9 +6,6 @@ const useStyles = createUseStyles({
   data:{
     margin:'1em 0',
     padding:'0.5em 0',
-    display:'flex',
-    justifyContent:'center',
-    flexWrap:'wrap',
     border:'1px solid #999',
     borderRadius:'0.5em',
     boxShadow:'0 0 0.5em 0.2em #999',
@@ -65,7 +62,7 @@ export const DataContainer = ({ data: {name, lines} })=>{
   const classes = useStyles()
 
   return (
-    <div className={classes.data}>
+    <div className={classes.data+" flex wrap"}>
       <div className={classes.name}>{name}</div>
       {
         lines.map( (line, index)=>{

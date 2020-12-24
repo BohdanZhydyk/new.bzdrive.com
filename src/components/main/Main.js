@@ -17,7 +17,7 @@ export const Main = ()=>{
   const classes = useStyles()
 
   return (
-    <main className={classes.main}>
+    <main className={classes.main+" flex"}>
       <Switch>
         <Route exact path="/" render={ ()=> <Home /> } />
         <Route exact path="/cv" render={ ()=> <CV /> } />

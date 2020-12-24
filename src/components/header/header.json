@@ -1,5 +1,5 @@
 {
-  "logo": "logo",
+  "logo": "https://bzdrive.com/img/engine/enginer.gif",
   "siteName": ["bz", "Drive", ".com"],
   "menu": [
     {"link": "/", "text": "main"},
