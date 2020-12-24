@@ -1,0 +1,52 @@
+{
+  "news": [
+    {
+      "top": {
+        "id": "1",
+        "author": {
+          "user": "bz83",
+          "online": true
+        },
+        "lng": "pl",
+        "dateTime": "2020-09-19 17:48:00",
+        "theme": "theme of the news..."
+      },
+      "content": "content of the news...",
+      "bottom": {
+        "unix": "1600530480948"
+      }
+    },
+    {
+      "top": {
+        "id": "2",
+        "author": {
+          "user": "test",
+          "online": false
+        },
+        "lng": "ua",
+        "dateTime": "2020-09-20 00:16:31",
+        "theme": "theme of the news..."
+      },
+      "content": "content of the news...",
+      "bottom": {
+        "unix": "1600553791625"
+      }
+    },
+    {
+      "top": {
+        "id": "1",
+        "author": {
+          "user": "Oksanka",
+          "online": true
+        },
+        "lng": "ua",
+        "dateTime": "2020-02-28 15:43:00",
+        "theme": "theme of the news..."
+      },
+      "content": "content of the news...",
+      "bottom": {
+        "unix": "1600530432948"
+      }
+    }
+  ]
+}

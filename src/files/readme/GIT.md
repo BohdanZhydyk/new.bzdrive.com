@@ -56,5 +56,30 @@ $ git checkout -b 'name of branch'
 
 - Renaming the Local master Branch to main
 ```
-git branch -m master main
+$ git branch -m master main
+```
+
+- Wyswietlic liste branch
+```
+$ git branch
+```
+
+- Stworzyc new_branch
+```
+$ git branch [new_branch]
+```
+
+- Przejsc do new_branch
+```
+$ git checkout [new_branch]
+```
+
+- Wytrzec branch
+```
+$ git branch -d [branch_name]
+```
+
+- Polachyc branch
+```
+$ git merge [branch]
 ```
